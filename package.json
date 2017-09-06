@@ -1,0 +1,9 @@
+{
+  "name": "acf-user-network",
+  "version": "1.0.0",
+  "description": "ACF User Network",
+  "author": "Be API",
+  "devDependencies": {
+    "matchdep": "*"
+  }
+}
