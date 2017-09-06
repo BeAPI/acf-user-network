@@ -1,4 +1,4 @@
-# Advanced Custom Fields: SVG #
+# Advanced Custom Fields: User Network #
 
 This enhance [Advanced Custom Field](https://www.advancedcustomfields.com/pro/) plugin by adding a custom field.
 
@@ -15,7 +15,7 @@ This ACF field type is compatible with:
 ### via Composer
 
 1. Add a line to your repositories array: `{ "type": "git", "url": "https://github.com/BeAPI/acf-user-network" }`
-2. Add a line to your require block: `"bea/acf-svg-icon": "dev-master"`
+2. Add a line to your require block: `"bea/acf-user-network": "dev-master"`
 3. Run: `composer update`
 
 ### Manual
