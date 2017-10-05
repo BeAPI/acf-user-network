@@ -1,6 +1,6 @@
 {
-  "name": "bea/acf-svg-icon",
-  "description": "Add ACF field for selecting SVG icons.",
+  "name": "bea/acf-user-network",
+  "description": "Add ACF field for selecting all user of Network",
   "minimum-stability": "stable",
   "license": "GPL-2.0",
   "authors": [
