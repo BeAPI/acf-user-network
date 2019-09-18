@@ -1,8 +1,9 @@
-(function ($) {
-    // user
-    acf.fields.user = acf.fields.select.extend({
+(function($){
 
-        type: 'user_network'
+	var Field = acf.models.SelectField.extend({
+		type: 'user_network',	
+	});
+	
+	acf.registerFieldType( Field );
 
-    });
 })(jQuery);
