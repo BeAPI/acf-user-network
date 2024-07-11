@@ -24,7 +24,12 @@ This ACF field type is compatible with:
 2. Activate the plugin via the plugins admin page.
 3. Create a new field via ACF and select the User Network selector.
 
-## Changelog ##
+## Changelog
+
+### 1.0.1 - 11 July 2024
+
+* Fix: Update AJAX nonce handling for ACF 6.3.2 ([#5](https://github.com/BeAPI/acf-user-network/pull/5)) 
+* Fix: JS error when initializing the field ([#3](https://github.com/BeAPI/acf-user-network/pull/3))
 
 ### 1.0.0 - 6 Sept 2017
-* Initial
+* Initial release

@@ -1,7 +1,7 @@
 <?php
 /*
  Plugin Name: Advanced Custom Fields: User Network
- Version: 1.0.0
+ Version: 1.0.1
  Plugin URI: http://www.beapi.fr
  Description: Add an ACF User Network list selector.
  Author: BE API Technical team
@@ -11,7 +11,7 @@
 
  ----
 
- Copyright 2017 BE API Technical team (human@beapi.fr)
+ Copyright 2024 BE API Technical team (human@beapi.fr)
 
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -32,7 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die();
 }
 
-define( 'ACF_USER_NETWORK_VER', '1.0.0' );
+define( 'ACF_USER_NETWORK_VER', '1.0.1' );
 define( 'ACF_USER_NETWORK_URL', plugin_dir_url( __FILE__ ) );
 define( 'ACF_USER_NETWORK_DIR', plugin_dir_path( __FILE__ ) );
 
