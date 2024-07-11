@@ -43,7 +43,9 @@
 	function ajax_query() {
 
 		// validate
-		if ( ! acf_verify_ajax() ) {
+		$nonce = acf_request_arg( 'nonce', '' );
+		$key   = acf_request_arg( 'field_key', '' );
+		if ( ! acf_verify_ajax( $nonce, $key ) ) {
 			die();
 		}
 
